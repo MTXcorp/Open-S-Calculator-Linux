@@ -18,9 +18,11 @@ def modech():
         Mode = "minus"
         Status = "Ready,Verif-Other"
 while Status == "run":
-    calc = input("|>")
-    if calc == "exit":
+    fstnuminp = input("|1st Number|>")
+
+    if fstnuminp == "exit":
         Status = "exit"
-    elif calc == " --mode":
+    elif fstnuminp == " --mode":
         modech()
-    elif calc == 
+    elif fstnuminp == "plus":
+        
